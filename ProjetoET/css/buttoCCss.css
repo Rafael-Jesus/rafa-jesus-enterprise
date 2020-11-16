@@ -1,0 +1,29 @@
+.btns{
+            text-align: center;
+            margin-top: -20px;
+          }
+
+          .efeito{
+            border: none;
+            color: #ffffff;
+            padding: 20px;
+            margin: 10px;
+            font-size: 20px;
+            line-height: 5px;
+            width: 300px;
+            border-radius: 50px;
+            position: relative;
+            box-sizing: border-box;
+            cursor: pointer;
+            transition: all 400ms ease;
+          }
+
+          .efeito-3{
+            background: #FED001;
+          }
+
+          .efeito-3:hover{
+            background: rgba(0,0,0,0);
+            color: #FED001;
+            box-shadow: inset 0 0 0 3px #FED001;
+          }

@@ -1,0 +1,20 @@
+create database empireteste;
+
+create table produto(
+	id int auto_increment primary key,
+	titulo varchar(50) not null,
+	preco varchar(50) not null,
+	descricao varchar(50) not null,
+	categoria varchar(50) not null,
+	localizacao varchar(50) not null,
+	foto varchar(50) not null,
+	usuario varchar(50) not null
+);
+
+create table usuario(
+	nome varchar(50) not null,
+	senha varchar(50) not null,
+	email  varchar(50) primary key
+);
+
+alter table produto add foreign key (usuario) references usuario(email);

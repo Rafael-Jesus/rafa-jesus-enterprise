@@ -1,0 +1,24 @@
+
+	body{	
+		background-color: #0B614B;
+		
+	}
+
+
+	input[type=email]:focus{
+			/*pinta as caixinhas*/
+			border-color: #3CF606;
+			box-shadow: 0 0 0 4px #3CF606;
+	}
+	input[type=password]:focus{
+			border-color: #3CF606;
+			box-shadow: 0 0 0 4px #3CF606;
+	}
+	input[type=text]:focus{
+			border-color: #3CF606;
+			box-shadow: 0 0 0 4px #3CF606;
+	}
+
+
+
+	

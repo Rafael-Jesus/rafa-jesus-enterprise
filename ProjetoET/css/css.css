@@ -1,0 +1,21 @@
+button.botao {
+	background-color:#ffea00;
+	border-radius:28px;
+	border:1px solid #e0c200;
+	display:inline-block;
+	cursor:pointer;
+	color:#fafafa;
+	font-family:Arial;
+	font-size:18px;
+	font-weight:bold;
+	padding:9px 38px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #a38888;
+}
+button.botao:hover {
+	background-color:#030003;
+}
+button.botao:active {
+	position:relative;
+	top:1px;
+}

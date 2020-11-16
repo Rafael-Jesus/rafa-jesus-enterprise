@@ -1,0 +1,173 @@
+ /* Estilo do primeiro link do menu */
+
+.tabs-inner .section:first-child ul {
+
+margin-top: -1px;
+
+border: none;
+
+}
+
+
+/* Estilo da barra de navegação geral */
+
+.tabs-inner .widget ul {
+
+background: #F8E6E0;
+
+border: none;
+
+text-align: center;
+
+}
+
+/* Estilo dos links individual*/
+
+.tabs-inner .widget li a {
+
+font: 12px Arvo;
+
+border: none;
+
+color: #ffffff;
+
+}
+
+/* Estilo dos links com hover */
+
+.tabs-inner .widget li.selected a, .tabs-inner .widget li a:hover {
+
+color: #F8E6E0;
+
+background-color: #ffffff;
+
+text-decoration: none;
+
+}
+
+
+#navigationbar {
+
+width: 11%; /* alterar a largura da barra de navegação */
+
+height: 45	px; /* alterar a altura da barra de navegação */
+
+}
+
+
+#navigationcss { 
+
+margin: 0 auto;
+
+padding: 0; 
+
+}
+
+
+#navigationcss ul { 
+float: none; 
+
+list-style: none; 
+
+margin: 0; 
+
+padding: 0; 
+
+overflow: visible; 
+
+text-decoration: none;
+
+}
+
+
+#navigationcss li a, #navigationcss li a:link, #navigationcss li a:visited {
+
+color: #c; /* alterar a cor dos links principais */
+
+display: block;
+
+margin: 0;
+
+padding: 10px 30px;  /* change the first number for the top/bottom spacing, and the second number for left/right spacing */
+
+}
+
+
+#navigationcss li a:hover, #navigationcss li a:active {
+
+color: #0B614B ; /* altere a cor dos links quando está com mouse encima*/
+
+margin: 0;
+
+padding: 10px 30px; /* Certifique-se de que estes sejam os mesmos que a seção acima! */
+
+}
+
+
+#navigationcss li li a, #navigationcss li li a:link, #navigationcss li li a:visited {
+
+background: #FED001;  /* altere a cor de fundo da caixa suspensa */
+
+width: 150px;
+
+color: #0B614B; /* altere a cor dos links suspensos */
+
+float: none;
+
+margin: 0;
+
+padding: 7px 10px; /* semelhante ao acima, altere o espaçamento em torno dos links */
+
+}
+
+
+#navigationcss li li a:hover, #navigationcss li li a:active {
+
+background: #0B614B ; /*altere a cor de fundo dos itens suspensos no hover*/
+
+color: #fff; /* altere a cor dos links suspensos no hover */
+
+padding: 7px 10px;  /*mantenha o mesmo que a seção acima */
+
+}
+
+
+#navigationcss li {
+
+float: none; 
+
+display: inline-block; 
+
+list-style: none; 
+
+margin: 0; 
+
+padding: 0; 
+
+}
+
+
+#navigationcss li ul { 
+
+z-index: 9999; 
+
+position: absolute; 
+
+left: -999em; 
+
+height: auto; 
+
+width: 150px; 
+
+margin: 0;
+
+padding: 0;
+
+}
+
+
+#navigationcss li:hover ul, #navigationcss li li:hover ul, #navigationcss li li li:hover ul, #navigationcss li.sfhover ul, #navigationcss li li.sfhover ul, #navigationcss li li li.sfhover ul { 
+
+left: auto; 
+
+} 
